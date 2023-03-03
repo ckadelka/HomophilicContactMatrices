@@ -1,6 +1,8 @@
 # HomophilicContactMatrices
 
-This program projects age-structured social contact matrices to populations split not only by age but by further Boolean attributes. For each Boolean attribute, its prevalence across the population is known.
+This program implements a new method described in this paper: https://www.aimspress.com/article/doi/10.3934/mbe.2023154?viewType=HTML.
+
+It projects age-structured social contact matrices to populations split not only by age but by further Boolean attributes. For each Boolean attribute, its prevalence across the population is known.
 For attribute1, the population may also exhibit positive homophily, h in [0,1], such that there are more contacts among people with the same attribute value. 
 The number of interactions between individuals with different attribute1 values is (1-h) times the expected number (i.e. in the case h==0), where attribute 1 has no impact on social contact levels. 
 In the other extreme case (h==1), there exists complete segregation: only individuals with the same attribute1 value interact.
